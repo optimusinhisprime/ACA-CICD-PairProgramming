@@ -11,4 +11,10 @@ jobs:
       - image: cimg/node:17.5.0
     steps:
       - checkout
-      - run: node --version 
+      - run: 
+          name: install dependencies
+          command: npm install
+      - run:
+          name: Run tests
+          command: npm test
+      
