@@ -16,7 +16,7 @@ workflows:
           filters:
             branches:
               only:
-                - CICD-Configuration 
+                - main 
 
 jobs:
   test:         
