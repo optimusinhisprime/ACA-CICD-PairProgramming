@@ -35,7 +35,7 @@ jobs:
             - ./node_modules
       - run:
           name: Run tests
-          command: npm 
+          command: npm test
       - run:
           name: production-build
           command: npm run build
