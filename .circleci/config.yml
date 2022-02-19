@@ -40,7 +40,8 @@ jobs:
   build:
     docker:
       - image: cimg/node:17.5.0
-    steps:      
+    steps: 
+      - checkout     
       - run:
           name: production-build
           command: npm run build
