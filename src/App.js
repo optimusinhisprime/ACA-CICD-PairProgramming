@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -15,8 +15,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React by Benji and Phomolo
+          Learn React
         </a>
+        <p>
+          Authors: <a href="https://github.com/Bandla1995">Benji</a> and
+          <a href="https://github.com/optimusinhisprime">Phomolo</a>
+        </p>
       </header>
     </div>
   );
